@@ -9,7 +9,6 @@ export default function Home() {
         <nav className="hidden sm:flex items-center gap-6 text-sm">
           <a className="hover:opacity-80" href="#features">Features</a>
           <a className="hover:opacity-80" href="#how">How it works</a>
-          <a className="hover:opacity-80" href="#faq">FAQ</a>
           <a className="hover:opacity-80" href="/privacy">Privacy</a>
         </nav>
       </header>
@@ -19,17 +18,13 @@ export default function Home() {
         <section className="hero-gradient">
           <div className="container-narrow py-20 sm:py-28">
             <div className="max-w-3xl">
-              <h1 className="text-4xl sm:text-6xl font-bold leading-tight text-[color:var(--foreground)]">
-                Create and publish digital products in minutes with AI
-              </h1>
-              <p className="mt-5 text-lg sm:text-xl text-[color:color-mix(in oklab, var(--foreground) 70%, white)]">
-                Ocelot AI turns your ideas into polished digital products—ebooks, guides, templates, and more—then publishes them to your Shopify store with a few clicks.
-              </p>
+              <h1 className="text-4xl sm:text-6xl font-bold leading-tight text-[color:var(--foreground)]">Create and publish digital products in minutes with AI</h1>
+              <p className="mt-5 text-lg sm:text-xl text-[color:color-mix(in oklab, var(--foreground) 70%, white)]">Ocelot AI turns your ideas into polished digital products—then publishes them to your Shopify store with a few clicks.</p>
               <div className="mt-8 flex items-center gap-4">
                 <a className="btn-primary" href="#cta">Add to Shopify</a>
                 <a className="btn-secondary" href="#how">See how it works</a>
               </div>
-              <p className="mt-3 text-xs opacity-70">No credit card required • 14‑day free trial</p>
+              <p className="mt-3 text-xs opacity-70">No credit card required • 100 free credits</p>
             </div>
           </div>
         </section>
@@ -79,28 +74,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* FAQ */}
-        <section id="faq" className="container-narrow py-16 sm:py-24">
-          <h3 className="text-2xl font-semibold">Frequently asked questions</h3>
-          <div className="mt-6 grid sm:grid-cols-2 gap-6">
-            <div>
-              <h4 className="font-medium">What kinds of digital products can I create?</h4>
-              <p className="mt-2 text-sm opacity-80">Ebooks, guides, checklists, templates, and resource packs—optimized for your audience.</p>
-            </div>
-            <div>
-              <h4 className="font-medium">Can I customize the content?</h4>
-              <p className="mt-2 text-sm opacity-80">Yes. You can edit structure, copy, images, and metadata before publishing.</p>
-            </div>
-            <div>
-              <h4 className="font-medium">How does pricing work?</h4>
-              <p className="mt-2 text-sm opacity-80">Flexible pricing with a free trial. Upgrade when you publish your first product.</p>
-            </div>
-            <div>
-              <h4 className="font-medium">Is it Shopify‑approved?</h4>
-              <p className="mt-2 text-sm opacity-80">The app follows Shopify guidelines and integrates natively with your store.</p>
-            </div>
-          </div>
-        </section>
+
       </main>
 
       <footer className="border-t">
